@@ -1,0 +1,250 @@
+#root {
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container-fluid {
+  padding: 0rem;
+  margin: 0;
+}
+
+.page-header {
+  font-size: 2rem;
+  color: #a12b2b;
+  margin-bottom: 2rem;
+}
+
+.color-navbar {
+  background-color: #f19976;
+}
+.card {
+  box-shadow: 0 0 10px 5px #e1e5ee;
+  border-radius: 0.2rem;
+  min-width: 5rem;
+  display: flex;
+  text-align: center;
+  margin: 2rem 0;
+  transition: transform 0.2s ease;
+  padding: 0.5rem;
+  background: #ffffff;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+.card-title {
+  color: #f19976;
+  text-align: center;
+  padding-top: 0.5rem;
+  margin-bottom: 0rem;
+  font-size: 1.4rem;
+}
+.card-title:hover {
+  color: #a75333;
+}
+.price {
+  font-size: 1.2rem;
+}
+.card-body {
+  color: #a75333;
+  margin-top: 0rem;
+  font-size: 1rem;
+}
+
+.list-group.info {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+/* Rating */
+.rating span {
+  color: #f0c040;
+  margin: 0.1rem;
+}
+.rating span:last-child {
+  color: #404040;
+}
+
+.policy {
+  font-family: Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+}
+.policy.termsPolicy {
+  font-family: Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: left;
+}
+.success {
+  color: green;
+}
+.danger {
+  color: red;
+}
+.large {
+  width: 100%;
+}
+.small {
+  width: 100%;
+}
+.select {
+  width: 10%;
+}
+/* payment method screen */
+.form {
+  width: 60%;
+}
+
+.footer {
+  background: #f19976;
+  padding: 3rem;
+  justify-content: center;
+  margin-top: 5rem;
+  bottom: 0;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer-link {
+  color: #e6e6e6;
+}
+.footer-link:hover {
+  color: #fff;
+}
+.footer-info {
+  text-align: center;
+}
+.footer-icons {
+  text-align: center;
+  padding-top: 2rem;
+}
+.social-link {
+  text-align: center;
+  padding-left: 2rem;
+}
+
+/* Screens */
+
+.product-screen {
+  padding-bottom: 6rem;
+}
+
+.product-box {
+  margin-top: 2.5rem;
+  padding: 1rem;
+  box-shadow: 0 0 8px 4px #e1e5ee;
+}
+
+.product-name {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.cart-screen {
+  line-height: 1.5rem;
+  padding-top: 2rem;
+  padding-bottom: 6rem;
+}
+
+.item-name {
+  font-size: 1.4rem;
+}
+
+.item-price {
+  font-size: 1.2rem;
+}
+
+.cart-box {
+  margin-top: 2rem;
+}
+.cart-items {
+  text-align: left;
+  padding-top: 10px;
+}
+.cart-shadow {
+  margin-top: 2.5rem;
+  padding: 1rem;
+  box-shadow: 0 0 8px 4px #e1e5ee;
+}
+
+.cart-delete {
+  text-align: right;
+}
+
+.shipping {
+  padding-top: 4rem;
+  line-height: 1.5rem;
+  padding-bottom: 6rem;
+}
+
+.placeOrderScreen {
+  padding-top: 3rem;
+  line-height: 1.5rem;
+}
+
+.placed-items {
+  padding-top: 2rem;
+}
+
+.orderScreen {
+  padding-top: 3rem;
+  line-height: 1.5rem;
+  padding-bottom: 6rem;
+}
+.order-history {
+  padding-top: 3rem;
+  line-height: 1.5rem;
+  padding-bottom: 6rem;
+}
+.register {
+  padding-top: 4rem;
+  line-height: 1.5rem;
+  padding-bottom: 6rem;
+}
+.signin {
+  padding-top: 4rem;
+  line-height: 1.5rem;
+  padding-bottom: 6rem;
+}
+
+.signin-header {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.profile {
+  padding-top: 4rem;
+  line-height: 1.5rem;
+  padding-bottom: 6rem;
+}
+
+/* Mobile */
+
+@media only screen and (max-width: 700px) {
+  .card-title {
+    font-size: 1rem;
+  }
+  .card-body {
+    margin-top: 0rem;
+    font-size: 0.7rem;
+  }
+  .product-name {
+    font-size: 1.6rem;
+    font-weight: bold;
+  }
+  .footer-info {
+    font-size: 0.6rem;
+  }
+}
