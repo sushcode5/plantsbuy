@@ -1,0 +1,36 @@
+{
+  "name": "ecom",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "frontend-install": "cd frontend && npm install",
+    "frontend-build": "cd frontend && npm run build",
+    "heroku-postbuild": "npm run frontend-install && npm run frontend-build"
+  },
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": "14.17.0"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.1",
+    "razorpay": "^2.0.6",
+    "shortid": "^2.2.16"
+  },
+  "devDependencies": {
+    "eslint": "^7.29.0",
+    "eslint-plugin-react": "^7.24.0"
+  }
+}
