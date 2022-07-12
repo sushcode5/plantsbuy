@@ -1,3 +1,3 @@
 # plantsbuy
 
-Link - www.plantsbuy.in/
+Link - https://plantsbuyecom.herokuapp.com/
